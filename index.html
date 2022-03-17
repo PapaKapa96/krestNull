@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5 Canvas</title>
+        <link rel="stylesheet" href="canvas.css">
+        <script src="canvas.js"></script>
+    </head>
+    <body>
+      
+<div class="CanvasContainer">
+        <canvas id="drawingCanvas" width="100", height="100"></canvas>
+</div>
+<div class="Toolbar">
+        - Операции-<br>
+        <button onclick="compil(),clearCanvas()">Угадать</button>
+        <button onclick="errorNull(),resultMass()">Нолик</button>
+        <button onclick="errorKrest(),resultMass()">Крестик</button>
+        <button onclick="clearCanvas()">Очистить</button>
+        <div id="savedCopyContainer">
+           <img id="savedImageCopy"><br>
+           Щелкните правой кнопкой мыши для сохранения ...
+        </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  background: white;
+}
+
+.Toolbar {
+  float: left;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  font-variant: small-caps;
+  text-align: center;
+  background: #f2f7fe;
+  padding: 10px 15px 3px 10px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  border: 1px solid #7b899b;
+}
+
+.Toolbar button {
+  padding: 6px;
+  margin: 7px 2px;
+  font-variant: normal;
+  font-size: 12px;
+}
+
+.CanvasContainer {
+  clear: both;
+}
+
+canvas {
+  border: 2px solid #758eaf;
+}
+
+img {
+  padding: 3px;
+  border: 3px solid #f5f7f6;
+}
+
+img:hover {
+  border: 2px groove #e4f0fe;
+  background: white;
+}
+
+img.Selected {
+  border: 2px groove #e4f0fe;
+}
+
+#savedCopyContainer {
+  display: none;
+}
+
+#savedCopyContainer img {
+  width: 250px;
+  height: 150px;
+}
